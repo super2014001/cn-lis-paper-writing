@@ -1,32 +1,74 @@
 # cn-lis-paper-writing
 
-一个面向**中文图书情报领域学术论文**的最小可运行 skill 包。
+> **一句话定位**：专门为中文图书情报领域学术论文打造的 AI Skill 包——帮你诊断问题、重构结构、改写文本、回复审稿，覆盖投稿全流程。
 
-## 当前包含
-- `SKILL.md`：总控规则
-- `references/abstract.md`：摘要写作与改写规则
-- `references/introduction.md`：引言写作与改写规则
-- `references/literature-review.md`：文献综述组织规则
-- `references/methods.md`：方法部分写作规则
-- `references/results-discussion.md`：结果与讨论写作规则
-- `references/conclusion.md`：结论写作规则
-- `references/reply-to-reviewers.md`：回复审稿意见规则
-- `references/examples.md`：结构型示例
-- `references/reviewer-checklist.md`：投稿前自检清单
-- `agents/openai.yaml`：最简元信息
+---
 
-## 当前定位
-- 不包含学位论文专项写作
-- 强化实践启示
-- 适合做 v0.3 起步版
+## 这个 Skill 能帮你做什么
 
-## 建议使用方式
-1. 先根据用户任务定位到对应章节文件
-2. 先诊断问题，再给结构提纲，再给改写文本
-3. 通篇修改后用 `reviewer-checklist.md` 做一次自检
-4. 面对返修意见时，用 `reply-to-reviewers.md` 生成逐条回应草稿
+| 你的任务 | Skill 的动作 |
+|---|---|
+| 摘要太长/太空洞 | 按"目的—方法—结果—结论"框架压缩改写 |
+| 引言不知怎么展开 | 诊断背景—问题—缺口—贡献的逻辑链 |
+| 文献综述像堆砌 | 重组为"议题演进—研究缺口—本文定位"结构 |
+| 方法交代不清 | 补充对象、材料、步骤、工具、判断依据 |
+| 结果和结论脱节 | 检查研究问题—方法—结果—结论的闭环 |
+| 实践启示太抽象 | 落实到服务改进、管理优化、政策完善、资源建设层面 |
+| 收到审稿意见不知如何回 | 生成礼貌、克制、逐条有据的回复草稿 |
+| 投稿前不放心 | 执行结构性与规范性全文自检清单 |
 
-## 建议下一步
-1. 增补 `references/examples.md` 中的正反例数量
-2. 加入 `references/concept-definition.md` 或 `references/title-keywords.md`
-3. 用 5—10 篇真实图情论文片段回测并继续补规则
+**本 Skill 不做的事**：不写学位论文、不做基金申报书、不处理纯技术算法论文、不生成宣传稿或工作总结。
+
+---
+
+## Skill 蒸馏来源
+
+本 Skill 的规则体系蒸馏自以下领域权威——
+
+### 中文图书情报学科代表学者
+
+| 学者 | 主要贡献领域 |
+|---|---|
+| **程焕文**（中山大学） | 图书馆学理论、信息伦理 |
+| **柯平**（南开大学） | 信息资源管理、知识管理 |
+| **马费成**（武汉大学） | 信息科学基础理论、科学计量 |
+| **邱均平**（武汉大学） | 文献计量学、学术评价 |
+| **叶继元**（南京大学） | 学术规范与期刊评价体系 |
+| **张晓林**（中国科学院文献情报中心） | 数字图书馆、开放科学 |
+| **范并思**（华东师范大学） | 图书馆学理论、阅读研究 |
+| **初景利**（清华大学） | 图书馆服务、学科馆员研究 |
+
+### 学术写作方法论权威
+
+| 学者 / 著作 | 核心贡献 |
+|---|---|
+| **Wayne C. Booth** *et al.*《The Craft of Research》 | 研究问题构建、论证结构设计 |
+| **Joseph M. Williams**《Style: Lessons in Clarity and Grace》 | 学术表达的清晰度与逻辑优先原则 |
+| **Helen Sword**《Stylish Academic Writing》 | 去除学术空话、以读者为中心的写作策略 |
+| **Howard S. Becker**《Writing for Social Scientists》 | 社会科学写作的结构与修订逻辑 |
+| **M. A. K. Halliday** 系统功能语言学 | 学术语篇的衔接与连贯机制 |
+
+---
+
+## 权威来源期刊
+
+规则对标中文图书情报领域以下核心期刊的写作标准与结构规范：
+
+**国内核心**
+- 《中国图书馆学报》（CSSCI）
+- 《图书情报工作》（CSSCI）
+- 《情报学报》（CSSCI）
+- 《大学图书馆学报》（CSSCI）
+- 《图书馆学研究》（CSSCI）
+- 《图书情报知识》（CSSCI）
+
+**国际权威**
+- *Journal of the American Society for Information Science and Technology*（JASIST）
+- *Library & Information Science Research*
+- *Journal of Documentation*
+- *Journal of Informetrics*
+
+---
+
+## 快速上手
+
