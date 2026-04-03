@@ -88,24 +88,6 @@ Skill：[识别堆砌类型] → [重组议题主线] → [补研究缺口] → 
 4. 改写完成后自动执行 reverse outline 检验
 5. 全文完成后用 `reviewer-checklist.md` 通篇自检
 
----
-
-## 文件结构
-
-cn-lis-paper-writing/
-├── SKILL.md # 总控规则（Skill 入口）
-├── references/
-│ ├── abstract.md # 摘要写作与改写规则
-│ ├── introduction.md # 引言写作与改写规则
-│ ├── literature-review.md # 文献综述组织规则
-│ ├── methods.md # 方法部分写作规则
-│ ├── results-discussion.md # 结果与讨论写作规则
-│ ├── conclusion.md # 结论写作规则
-│ ├── reply-to-reviewers.md # 审稿意见回复规则
-│ ├── examples.md # 结构型正反例
-│ └── reviewer-checklist.md # 投稿前自检清单
-└── agents/
-└── openai.yaml # 元信息配置
 
 
 ---
