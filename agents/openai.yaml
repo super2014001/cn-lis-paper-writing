@@ -1,0 +1,4 @@
+name: cn-lis-paper-writing
+version: 0.3.0
+description: 中文图书情报领域学术论文写作最小可运行 skill，含摘要、引言、综述、方法、结果讨论、结论、审稿回复与自检模块。
+entrypoint: SKILL.md
