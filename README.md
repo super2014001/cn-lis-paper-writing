@@ -1,5 +1,7 @@
 # cn-lis-paper-writing
 
+[点击在线体验](https://socialistic.ai/cn-lis-paper-writing-c4eec0?utm_source=github_readme&utm_campaign=koc_skill_creator&utm_content=hyperlink)
+
 > **一句话定位**：专门为中文图书情报领域学术论文打造的 AI Skill 包——帮你诊断问题、重构结构、改写文本、回复审稿，覆盖投稿全流程。
 
 ---
